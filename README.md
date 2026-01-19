@@ -32,7 +32,7 @@
 3. Создайте в jenkins Freestyle Project, подключите получившийся репозиторий к нему и произведите запуск тестов и сборку проекта ```go test .``` и  ```docker build .```.
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
-![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/CI/CD/home/vexta/ggit/8-03-hw/1.png)
+![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/CI/CD/1.png)
 
 
 ### Задание 2
