@@ -33,6 +33,8 @@
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
 ![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/CI/CD/1.png)
+![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/CI/CD/2.png)
+![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/CI/CD/3.png)
 
 
 ### Задание 2
@@ -43,6 +45,9 @@
 2. Перепишите сборку из задания 1 на declarative в виде кода.
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
+
+![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/CI/CD/4.png)
+![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/CI/CD/5.png)
 
 ---
 
@@ -56,3 +61,6 @@
 1. Загрузите файл в репозиторий с помощью jenkins.
 
 В качестве ответа пришлите скриншоты с настройками проекта и результатами выполнения сборки.
+![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/CI/CD/6.png)
+![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/CI/CD/7.png)
+![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/CI/CD/8.png)
