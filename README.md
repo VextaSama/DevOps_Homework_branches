@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`Git`" - `Макаров Виктор`
+# Домашнее задание к занятию "`Disaster Recovery. FHRP и Keepalived`" - `Макаров Виктор`
 
 
 ### Инструкция по выполнению домашнего задания
@@ -24,15 +24,23 @@
 
 ### Задание 1
 
-1. https://github.com/VextaSama/zadanie/commit/bffd7d3b00adc779817869f3a05a5c5820eeafca
+`Приведите ответ в свободной форме........`
+
+1. ![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/keep/cisco.png)
+2. `pkt файл в папке files`
+
 
 ---
 
 ### Задание 2
 
-1. https://github.com/VextaSama/zadanie/commit/e90db8e2ef3888ae76b433ffbedae5e5488ea5bc
+`Приведите ответ в свободной форме........`
 
-### Задание 3
+1. `Bash скрипт и keepalived в папке files`
+2. `До удаления файла`
+![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/keep/before.png)
+3. `После удаления файла`
+![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/keep/after.png)
 
-1. https://github.com/VextaSama/zadanie/network `со второго раза получилось`
 
+---
