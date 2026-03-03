@@ -26,7 +26,7 @@
 
 `Приведите ответ в свободной форме........`
 
-1. ![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/keep/cisco.png)
+1. ![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/keep/img/cisco.png)
 2. `pkt файл в папке files`
 
 
@@ -38,9 +38,9 @@
 
 1. `Bash скрипт и keepalived в папке files`
 2. `До удаления файла`
-![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/keep/before.png)
+![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/keep/img/before.png)
 3. `После удаления файла`
-![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/keep/after.png)
+![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/keep/img/after.png)
 
 
 ---
