@@ -24,7 +24,7 @@
 
 ### Задание 1
 
-1. `haproxy.cfg файл расположен папке files (haproxy4lvl.cfg)`
+1. `[haproxy.cfg файл](files/haproxy4lvl.cfg)`
 
 
 ![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/balance/img/4lvl.png)
@@ -36,7 +36,7 @@
 
 
 
-1. `haproxy.cfg файл расположен папке files (haproxy7lvl.cfg)`
+1. `[haproxy.cfg файл](files/haproxy7lvl.cfg)`
 
 
 ![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/balance/img/7lvl.png)
