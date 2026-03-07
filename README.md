@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`Кластеризация и балансировка нагрузки`" - `Макаров Виктор`
+# Домашнее задание к занятию "`Резервное копирование`" - `Макаров Виктор`
 
 
 ### Инструкция по выполнению домашнего задания
@@ -24,10 +24,8 @@
 
 ### Задание 1
 
-1. `haproxy.cfg файл расположен папке files (haproxy4lvl.cfg)`
 
-
-![alt text](https://github.com/VextaSama/gitlabhome/blob/balance/4lvl.png)
+![alt text](https://github.com/VextaSama/gitlabhome/blob/img/1.png)
 
 
 ---
@@ -36,9 +34,12 @@
 
 
 
-1. `haproxy.cfg файл расположен папке files (haproxy7lvl.cfg)`
+1. [crontab файл](files/vexta)
+2. [скрипт](files/script.sh)
 
+![alt text](https://github.com/VextaSama/gitlabhome/blob/rsync/img/2.png)
 
-![alt text](https://github.com/VextaSama/gitlabhome/blob/balance/7lvl.png)
-![alt text](https://github.com/VextaSama/gitlabhome/blob/balance/7lvlstats.png)
+Как видно на скриншоте, я использовал sudo версию crontab, т.к. некоторые файлы не синхронизировались из-за отсутствия привелегий.
+Для проверки работы синхронизации по расписанию в crontab файл было вписано другое время 42 9 * * * /home/vexta/script.sh 
+
 ---
