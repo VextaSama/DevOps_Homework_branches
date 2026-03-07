@@ -25,7 +25,7 @@
 ### Задание 1
 
 
-![alt text](https://github.com/VextaSama/gitlabhome/blob/img/1.png)
+![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/rsync/img/1.png)
 
 
 ---
@@ -37,7 +37,7 @@
 1. [crontab файл](files/vexta)
 2. [скрипт](files/script.sh)
 
-![alt text](https://github.com/VextaSama/gitlabhome/blob/rsync/img/2.png)
+![alt text](https://github.com/VextaSama/DevOps_Homework_branches/blob/rsync/img/2.png)
 
 Как видно на скриншоте, я использовал sudo версию crontab, т.к. некоторые файлы не синхронизировались из-за отсутствия привелегий.
 Для проверки работы синхронизации по расписанию в crontab файл было вписано другое время 42 9 * * * /home/vexta/script.sh 
