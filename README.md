@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`Git`" - `Макаров Виктор`
+# Домашнее задание к занятию "`Базы Данных`" - `Макаров Виктор`
 
 
 ### Инструкция по выполнению домашнего задания
@@ -24,15 +24,5 @@
 
 ### Задание 1
 
-1. https://github.com/VextaSama/zadanie/commit/bffd7d3b00adc779817869f3a05a5c5820eeafca
-
----
-
-### Задание 2
-
-1. https://github.com/VextaSama/zadanie/commit/e90db8e2ef3888ae76b433ffbedae5e5488ea5bc
-
-### Задание 3
-
-1. https://github.com/VextaSama/zadanie/network `со второго раза получилось`
+1. 
 
