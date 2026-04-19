@@ -24,5 +24,5 @@
 
 ### Задание 1
 
-1. 
+1. ![](https://github.com/VextaSama/DevOps_Homework_branches/blob/DB/img/1.jpg)
 
