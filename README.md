@@ -22,32 +22,79 @@
 
 ---
 
-###Задание 1
+### Задание 1
 
 1.1. Поднимите чистый инстанс MySQL версии 8.0+. Можно использовать локальный сервер или контейнер Docker.
-
+```
+sudo apt install mysql-server
+```
 1.2. Создайте учётную запись sys_temp.
-
+```
+sudo MySQL
+CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'password';
+```
 1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
 
-1.4. Дайте все права для пользователя sys_temp.
+![Текст описания](img/1.png)
 
+1.4. Дайте все права для пользователя sys_temp.
+```
+GRANT ALL PRIVELEGES ON *.* TO 'sys_temp'@'localhots' WITH GRANT OPTION;
+```
 1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
 
-1.6. Переподключитесь к базе данных от имени sys_temp.
+![Текст описания](img/2.png)
 
+```
+SHOW GRANTS FOR 'sys_temp'@'localhost';
+```
+
+1.6. Переподключитесь к базе данных от имени sys_temp.
+```
+exit
+mysql -u sys_temp -p
+```
 Для смены типа аутентификации с sha2 используйте запрос:
 
 ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 1.6. По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачайте дамп базы данных.
 
 1.7. Восстановите дамп в базу данных.
-
+```
+cd Downloads/sakila-db
+mysql -u sys_temp -p sakila < sakila-schema.sql
+mysql -u sys_temp -p sakila < sakila-data.sql
+mysql -u sys_temp -p
+```
 1.8. При работе в IDE сформируйте ER-диаграмму получившейся базы данных. При работе в командной строке используйте команду для получения всех таблиц базы данных. (скриншот)
+
+![Текст описания](img/3.png)
+
+SHOW TABLES;
 
 Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.
 
-###Задание 2
+Простыня всех запросов по хронологии:
+```
+sudo apt install mysql-server
+sudo MySQL
+SELECT VERSION(); для проверки версии
+CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'password';
+SELECT user, host FROM mysql.user;
+GRANT ALL PRIVELEGES ON *.* TO 'sys_temp'@'localhots' WITH GRANT OPTION;
+SHOW GRANTS FOR 'sys_temp'@'localhost';
+exit
+mysql -u sys_temp -p
+cd Downloads/sakila-db
+mysql -u sys_temp -p sakila < sakila-schema.sql
+mysql -u sys_temp -p sakila < sakila-data.sql
+mysql -u sys_temp -p
+SHOW DATABASES;
+USE sakila;
+SHOW TABLES;
+```
+
+### Задание 2
 
 Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц. Пример: (скриншот/текст)
 
@@ -55,3 +102,4 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 customer         | customer_id
 
 
+![Текст описания](img/4.png)
