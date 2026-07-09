@@ -50,6 +50,7 @@
 3.1. С помощью официальной документации приведите пример команды инкрементного резервного копирования базы данных MySQL.
 
 Используется утилита MySQL Enterprise Backup. Пример:
+
 ``mysqlbackup --defaults-file=/home/dbadmin/my.cnf \
   --incremental --incremental-base=history:last_backup \
   --backup-dir=/home/dbadmin/temp_dir \
