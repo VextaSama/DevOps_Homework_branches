@@ -61,21 +61,25 @@ Books делим по такому же принципу.
 
 Режимы работы серверов: Осовные сервера работают в режиме Мастер.
 
-``Users_profile Master 1
+Users_profile Master 1
 Users_profile Master 2
-Users_detail Master-server
+Users_detail Master
+
 Books_name Master 1
 Books_name Master 2
-Books_details Master-server
-Shops Master-Server``
+Books_details Master
+
+Shops Master-Server
 
 Они принимают операции по записи, изменению, удалению. Для части мастер-серверов создаются слейв-сервера, работающие в режиме read only. На схеме:
 
-``Users_profile Master 1 → Users_profile Slave 1
+Users_profile Master 1 → Users_profile Slave 1
 Users_profile Master 2 → Users_profile Slave 2
+
 Books_name Master 1 → Books_name Slave 1
 Books_name Master 2 → Books_name Slave 2
-Shops Master-Server → Shops Slave``
+
+Shops Master-Server → Shops Slave
 
 Слейв серверы получают данные со своих мастер-серверов и используются для чтения, отчётов и резервного копирования.
 
