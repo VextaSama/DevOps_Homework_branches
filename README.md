@@ -44,7 +44,9 @@ ftp, ssh, smb, apache, mysql, telnet, smtp
 Приведите ответ в свободной форме.
 
 1)Уязвимость (бэкдор) сервиса ftp по версии 2.3.4 https://www.exploit-db.com/exploits/17491
+
 2)Уязвимость ('Username' map script') samba по версии 3.0.20 https://www.exploit-db.com/exploits/16320
+
 3)Несколько уязвимостей UnrealIRCd по версии 3.2.8.1 https://www.exploit-db.com/exploits/13853 (Remote Downloader/Execute)
 
 
